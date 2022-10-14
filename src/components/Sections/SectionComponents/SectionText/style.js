@@ -5,7 +5,7 @@ export default styled.article`
   flex-direction: column;
 
   span{
-    color: #e8be39
+    color: ${({ theme }) => theme.main}
   }
 
   @media (max-width: 1200px) {

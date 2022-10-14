@@ -7,8 +7,8 @@ export default styled.button`
   font-weight: bold;
   border-radius: 10px;
   background-color: transparent;
-  color: #e8be39;
-  border-color: #e8be39;
+  color: ${({ theme }) => theme.main};
+  border-color: ${({ theme }) => theme.main};
   cursor: pointer;
   transition: 0.3s;
   padding: 10px;
